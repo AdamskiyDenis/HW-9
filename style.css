@@ -1,0 +1,61 @@
+body{
+    background-color: rgba(140, 219, 148, 0.351);
+    }
+    
+    /* Хедер */
+    .bg-header{
+    background-color: black;
+    }
+    
+    .list-header > li{
+    list-style: none;
+    color: white;
+    }
+    
+    /* .item{
+        color: white; 
+    } */
+    
+    
+    /* Інлайнові */
+    h1{
+        text-align: center;
+    }
+    /* селектор дитини */
+    .list-inline > .item{
+       color: blueviolet; 
+       list-style: none;
+    }
+    
+    .list-inline-item{
+        color: brown;
+        font-size: 20px;
+    }
+    
+    
+    /* селектор класу*/
+    .title{
+        color: blue;
+        text-align: center;
+        font-size: 20px;
+    
+    }
+    
+      /* < !--Селектор ідентифікатора--> */
+      #title-id{
+    color: rgb(218, 36, 57);
+    font-size: 24px;
+      }
+    
+    
+      /*  селектор нащадка */
+      .social-links a{
+        color: blue;
+        text-decoration: none;
+      }
+      
+    
+      /* Селектор атрибута */
+      a[title] {
+          color: teal;
+      }
